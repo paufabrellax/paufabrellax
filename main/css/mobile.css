@@ -1,0 +1,289 @@
+.lettering {
+
+    width: 230px;
+    height: 25px;
+    margin-left: 2em; 
+
+}
+
+@media screen and (max-width: 800px) {
+
+    /* Estilos para el LABEL */
+    .hamb_label {
+        /* Mostrarlo */
+        display: block;
+        margin-right: 2em;
+    }
+
+    /* Estilos para el MENÚ */
+    .mainMenu ul {
+        /* Estética */
+        background-color: rgb(0, 0, 0);
+        top: 4em;
+        padding: 1em;
+        z-index: 100;
+        /* Posición */
+        /* Lo colocamos pegado al borde izquierdo
+           del padre NO estático (ver .cabecera) */
+        position: absolute;
+        width: 100%;
+        left: 0;
+        /* Organizamos los hijos en columna y van al centro */
+        flex-direction: column;
+        align-items: center;
+
+        /* POR DEFECTO NO SE VE */
+        display: none;
+        
+
+    }
+
+    .mainMenu li {
+        
+        margin-right: 0px;
+        
+    }
+
+    /* Si el INPUT está CHECKED
+        busca un HERMANO que tenga la clase .menu */
+    #hamb_check:checked ~ ul {
+        /* Mostrarlo */
+        /* NOTA: No se usa "block" porque .menu es "flex"
+           por eso hay que alternar entre "none" y "flex" */
+        display: flex;
+    }
+
+    /* Si el INPUT está CHECKED
+        busca un HERMANO que tenga la clase .hamb_label
+        y éste a su vez que tenga un HIJO con la clase .hamb_label-img */
+    #hamb_check:checked ~ .hamb_label .hamb_label-img {
+        /* Cambiar la imagen por el SVG de CLOSE*/
+        
+        content: url("../img/close.svg");
+
+    }
+
+
+
+
+
+/* HOME*/
+
+   
+
+    #drag-image {
+
+      display: none;
+      }
+
+
+     footer p {
+        margin-left: 2em;  
+    }
+    
+    footer ul {   
+        margin-right: 2em;
+    }
+
+    footer li {
+        
+        margin-right: 1em;
+       
+       
+    }
+
+   
+    body p {
+
+        font-size: 0.5em;
+    }
+
+    .works {
+        width: 70%;
+        margin-bottom: 85px;
+    }
+
+    .galeria li {
+        width: 100%;
+    }
+
+   .logoGallery {
+     width: 185px;
+     height: 60px;
+    
+    }
+
+/* ABOUT ME*/
+
+
+    .aboutMe {
+
+    
+        display: block;
+        width: 90%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        margin-bottom: 100px;  
+        height: auto;  
+        
+    }
+
+    .column1 { 
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;  
+    }
+    
+    .column3 {
+        width: 100%;    
+     }
+
+    .paufabrellax {
+        display: none;
+    }
+
+    .pcolumn3{
+        margin-top: 2em;
+    }
+    
+    
+    .pcolumn2{
+        margin-top: 2em;
+    }
+
+    .aboutMe h2 {
+        margin-top: 3em;
+    
+    }
+
+    .linkTo {    
+        margin-top: 20px;
+        position: relative; 
+    }
+
+
+
+/* CONTACT*/
+
+    .contact {
+        width: 90%; 
+        margin-bottom: 100px;  
+    }
+    
+    .column {
+        width: 100%;
+     }
+
+    .logoContact{
+
+        width: 131px;
+        height: 42px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+
+/* PROYECTO*/
+
+    .proyecto {
+
+    
+        display: block;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        margin-bottom: 100px;
+        height: auto;
+        
+    }
+    .galeriaProyecto {
+
+        width: 100%;
+    
+    }
+
+    .galeriaProyecto li {
+        width: 100%;    
+    }
+
+    .textoProyecto {
+
+        text-align: center;
+        margin-right: 0px;
+        height: auto ;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .fullProject {
+
+        display: flex;
+        justify-content: right;
+        margin-top: 20px;
+        position: relative; 
+    }
+
+    .textoProyecto H1 {
+
+        
+        margin-bottom: 20px;
+    
+    
+    }
+    
+    .textoProyecto p {
+        text-align: justify;
+        margin-left: 0;
+    
+    
+    }
+
+    .cuerpo{
+
+        position: relative;
+        display: block;
+    }
+
+     
+  
+   
+  .grande1 {
+    max-width: 90%;  
+    margin-bottom: 2em;
+  }
+
+  .grande2 {
+    max-width: 90%;  
+    margin-bottom: 2em;
+  }
+
+  .grande3 {
+    max-width: 90%;  
+    margin-bottom: 2em;
+  }
+
+  .grande4 {
+    max-width: 90%;  
+    margin-bottom: 2em;
+  }
+  
+.exit{
+    margin-top: 50px;
+    margin-right: 2em;
+  
+
+}
+   
+
+
+
+
+}
+
