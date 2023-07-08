@@ -1,0 +1,995 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+    background-color: black;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+
+     
+}
+
+
+#drag-image {
+
+    z-index: 100;
+    position: absolute;
+    cursor: move;
+    width: 350px;
+    height: 350px;
+  }
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: 94px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+      
+    /* Alinea verticalmente centrados a sus hijos */
+     align-items: center;
+    
+    
+    
+}
+
+.lettering {
+
+    width: 299px;
+    height: 33px;
+    margin-left: 100px; 
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+}
+
+
+.mainMenu ul {
+    line-height: 44px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-right: 100px;
+    
+    display: flex;
+
+}
+
+ /* Estilo para el LABEL */
+ .hamb_label {
+    /* En DESKTOP nunca se ve */
+    display: none;
+    /* Poner el cursor pointer para que salga la mano */
+    cursor: pointer;
+}
+
+/* Estilo para el INPUT */
+.hamb_check {
+    /* NUNCA se va a ver */
+    display: none;
+}
+
+/* Estilo para imagen de la hamburguesa */
+/* Aunque no se vea vamos a ponerle el tamaño
+   para que valga para todos los casos */
+.hamb_label-img {
+    
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+.mainMenu li {
+    display: inline-block;
+    margin-right: 60px;
+    width: 100px;
+
+   
+}
+
+.mainMenu li:nth-child(1) {
+    width: 44px; /* HOME */
+    
+  }
+  
+  .mainMenu li:nth-child(2) {
+    width: 100px; 
+    /* MORE WORKS */
+  }
+  
+  .mainMenu li:nth-child(3) {
+    width: 76px;
+     /* ABOUT ME*/
+    
+  }
+
+  #youAreIn{
+
+    width: 76px;
+    font-weight: 800;
+    color: #ffdb3a;
+  }
+  
+  .mainMenu li:nth-child(4) {
+    width: 68px; /* CONTACT*/
+  }
+
+
+
+.mainMenu li:last-child {
+    margin-right: 0;
+}
+
+.mainMenu a {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+    text-decoration: none;
+    
+}
+
+.mainMenu a:hover{
+    font-weight: 800;
+    color: #ffdb3a;
+    transition: all .2s ease-in-out;
+    
+}
+
+
+/* Estilo para el LABEL */
+.hamb_label {
+    /* En DESKTOP nunca se ve */
+    display: none;
+    /* Poner el cursor pointer para que salga la mano */
+    cursor: pointer;
+}
+
+/* Estilo para el INPUT */
+.hamb_check {
+    /* NUNCA se va a ver */
+    display: none;
+}
+
+/* Estilo para imagen de la hamburguesa */
+/* Aunque no se vea vamos a ponerle el tamaño
+   para que valga para todos los casos */
+.hamb_label-img {
+    /* Altura de 2rem ya que el SVG es enorme */
+    height: 2rem;
+}
+
+
+
+
+.cuerpo {
+
+    width: 100%;
+    height: 100%;
+    
+    
+  
+    
+}
+
+.works {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+
+    display: block;
+    width: 500px;
+    text-align: center;
+
+
+}
+
+
+
+.logoGallery {
+    
+    width: 368px;
+    height: 119px;
+    
+    margin-bottom: 20px;
+
+
+}
+
+.galeria {
+
+    width: 100%;
+    text-align: center;
+    
+}
+
+.galeria li {
+
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+
+.galeria a{
+
+    display: block;
+    
+    height: 70px;
+     
+     
+}
+
+.galeria a.trabajo1 {
+    
+    background: url(../img/branding/trabajo1.jpg) no-repeat top center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.trabajo2 {
+    
+    background: url(../img/noisy/POSRTPRO4.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.trabajo3 {
+    
+    background: url(../img/distrue/1.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.trabajo4 {
+    
+    background: url(../img/alsafir/alsafircover.jpg) no-repeat bottom center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.trabajo5 {
+    
+    background: url(../img/c3chillin/FINALFINALFINAL.jpg) no-repeat 10% center ;;
+    background-size: cover;
+    
+}
+
+
+
+.galeria a:hover {
+    
+    filter: opacity(.5);
+    height: 140px;
+    transition: all .2s ease-in-out;
+
+}
+
+
+
+
+.moreWorks {
+
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.moreWorks p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-top: 4px;
+    color: whitesmoke;
+
+
+}
+
+.moreWorks img {
+
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+}
+
+footer {
+   
+    width: 100%;
+    height: 74px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+   
+    
+    
+    
+    
+}
+
+footer p {
+
+
+    
+    margin-left: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #6c6c6c;
+    text-decoration: none;
+
+}
+
+footer ul {
+    line-height: 44px;
+   
+    margin-right: 100px;
+    justify-self: right;
+    display: flex;
+    height: 30px;
+
+
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 40px;
+   
+   
+}
+
+footer a {
+
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color:#6c6c6c ;
+
+
+
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer a.instagram {
+    
+    background: url(../img/instagram.png) no-repeat center center ;;
+    background-size: contain;
+    
+}
+
+footer a.linkedin {
+    
+    background: url(../img/linkedin.png) no-repeat center center ;;
+    background-size: contain;
+   
+}
+
+footer a.mail {
+    
+    background: url(../img/mail.png) no-repeat center center ;;
+    background-size: contain;
+    
+}
+
+
+
+/* PAGINA DE PROYECTO*/
+
+
+.proyecto {
+
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 744px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    
+}
+
+.galeriaProyecto {
+
+    width: 500px;
+
+}
+
+.galeriaProyecto li {
+
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 500px;
+    
+    
+}
+
+.galeriaProyecto a{
+
+    display: block; 
+    background-color: #6c6c6c;
+    height: 70px;
+     
+     
+}
+
+.galeriaProyecto a:hover {
+    
+    filter: opacity(.5);
+    transition: all .2s ease-in-out;
+    
+
+}
+
+.galeriaProyecto a.foto1 {
+    height:300px;
+    background: url(../img/noisy/POSRTPRO4.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+    
+  }
+
+  .galeriaProyecto a.foto2 {
+    
+    background: url(../img/noisy/POSTPRO3.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+    
+  }
+
+  .galeriaProyecto a.foto3 {
+    
+    background: url(../img/noisy/2D1.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+    
+  }
+
+  .galeriaProyecto a.foto4 {
+    
+    background: url(../img/noisy/2D2.jpg) no-repeat bottom center ;;
+    background-size: cover;
+    
+    
+  }
+
+
+/* PAGINA DE PROYECTO BRANDING */ 
+
+ #BRANDING1 {
+
+    background: url(../img/branding/trabajo1.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #BRANDING2 {
+
+    background: url(../img/branding/BRANDING1-20.png) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #BRANDING3 {
+
+    background: url(../img/branding/BRANDING2V2-21.png) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #BRANDING4 {
+
+    background: url(../img/branding/BRANDING3-22.png) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+ 
+  
+/* PAGINA DE PROYECTO DISTRUE */  
+
+#DISTRUE1 {
+
+    background: url(../img/distrue/1.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #DISTRUE2 {
+
+    background: url(../img/distrue/LOGODISTRUE.png) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #DISTRUE3 {
+
+    background: url(../img/distrue/SOUTHSIDETEE.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #DISTRUE4 {
+
+    background: url(../img/distrue/STOPLYINGTEES.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+
+ 
+ /* PAGINA DE PROYECTO ALSAFIR */
+
+ #ALSAFIR1 {
+
+    background: url(../img/alsafir/alsafircover.jpg) no-repeat top center ;;
+    background-size: cover;
+
+
+ }
+
+ #ALSAFIR2 {
+
+    background: url(../img/alsafir/PUBLI_03.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #ALSAFIR3 {
+
+    background: url(../img/alsafir/PUBLI_01.jpg) no-repeat center center ;;
+    background-size: cover;
+
+
+ }
+
+ #ALSAFIR4 {
+
+    background: url(../img/alsafir/PUBLI_05.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+
+ }
+
+  
+  .imagenes-grande {
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.7 );
+    z-index: 999;
+    
+  }
+  
+  
+  .grande1 {
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .grande2 {
+    max-width: 800px;
+    max-height: 800px;
+    margin-bottom: 10px;
+  }
+
+  .grande3 {
+    max-width: 800px;
+    max-height: 800px;
+    margin-bottom: 10px;
+  }
+
+  .grande4 {
+    max-width: 800px;
+    max-height: 800px;
+    margin-bottom: 50px;
+  }
+  
+.exit{
+
+    background: url(../img/exit.png) no-repeat center center ;;
+    background-size: contain;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.paginaCongelada{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+.textoProyecto {
+
+    text-align: right;
+    margin-right: 0px;
+    height: 535px ;
+    position: relative;
+}
+
+.textoProyecto H1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom: 20px;
+
+
+}
+
+.textoProyecto p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #6c6c6c;
+    text-align: justify;
+    margin-left: 50px;
+
+
+}
+
+
+.fullProject {
+
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute; bottom: 0px; right: 0px;
+}
+
+.fullProject p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgb(255, 219, 58);
+    margin-top: 6px;
+    
+}
+
+
+
+
+
+.aboutMe {
+
+    
+    display: flex;
+    width: 1000px;
+    height: 535px ;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    
+    
+}
+
+.aboutMe p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: justify;
+    
+
+
+}
+
+
+
+.paufabrellax {
+
+position: absolute; bottom: 0px; left: 0px;
+color: #6c6c6c;
+
+
+}
+
+
+
+
+.pcolumn3{
+
+    margin-top: 310px;
+}
+
+
+.pcolumn2{
+
+    margin-top: 220px;
+}
+
+.aboutMe h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: justify
+
+
+}
+
+.aboutMe h2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: justify;
+    margin-top: 100px;
+    
+
+
+}
+
+.column1 {
+
+   width: 33%;
+   position: relative;
+   
+
+}
+
+.column2 {
+
+    width: 33%;
+    
+   
+    
+}
+
+.column3 {
+
+    width: 33%;
+    
+    
+ }
+
+ .linkTo {
+
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute; bottom: 0px; right: 0px;
+}
+
+.linkTo p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgb(255, 219, 58);
+    margin-top: 6px;
+    
+}
+
+
+
+.contact {
+
+    
+    
+    width: 1000px;
+    height: 535px ;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    text-align: center;
+    
+    
+}
+
+.column {
+
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+ }
+
+.contact h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 80px;
+
+
+}
+
+
+.contact h2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #6c6c6c;
+    text-align: center;
+    margin-top: 20px;
+    
+
+
+}
+
+.contact h2:hover{
+    
+    color: #ffdb3a;
+    transition: all .2s ease-in-out;
+    
+}
+
+.logoContact{
+
+    width: 200px;
+    height: 65px;
+    margin-top: 50px;
+}
+
+#correo{
+
+    text-align: right;
+}
+
+#telefono{
+
+    text-align: left;
+}
+
+#instagram{
+
+    text-align: right;
+}
