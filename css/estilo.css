@@ -418,6 +418,13 @@ header {
     
 }
 
+.galeria a.moreworks8 {
+    
+    background: url(../img/moreworks/1.png) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
 
 
 footer {
@@ -729,6 +736,7 @@ footer a.mail {
     position: absolute;
     width: 100%;
     
+    
     background-color: rgba(0, 0, 0, 0.7 );
     z-index: 999;
     
@@ -780,6 +788,7 @@ footer a.mail {
     top: 0;
     left: 0;
     width: 100%;
+
 }
 
 
