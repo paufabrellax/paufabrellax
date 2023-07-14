@@ -368,6 +368,58 @@ header {
     margin-top: 0;
 }
 
+
+
+/* PAGINA DE MORE WORKS*/
+
+.galeria a.moreworks1 {
+    
+    background: url(../img/moreworks/MUA.png) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.moreworks2 {
+    
+    background: url(../img/moreworks/SENSECODE.jpg) no-repeat top center ;;
+    background-size: cover;
+    
+}
+.galeria a.moreworks3 {
+    
+    background: url(../img/moreworks/SANVALENDRIPV1.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+.galeria a.moreworks4 {
+    
+    background: url(../img/moreworks/GRAPHICS_VF.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.moreworks5 {
+    
+    background: url(../img/moreworks/V3.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+.galeria a.moreworks6 {
+    
+    background: url(../img/moreworks/VF.jpg) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+.galeria a.moreworks7 {
+    
+    background: url(../img/moreworks/PUKER2-05.png) no-repeat center center ;;
+    background-size: cover;
+    
+}
+
+
+
 footer {
    
     width: 100%;
@@ -640,6 +692,32 @@ footer a.mail {
 
 
  }
+
+ #MDA1 {
+    background: url(../img/MDA/01.jpg) no-repeat top center ;;
+    background-size: cover;
+
+ }
+
+ #MDA2 {
+    background: url(../img/MDA/BICOLOR.jpg) no-repeat top center ;;
+    background-size: cover;
+
+ }
+
+ #MDA3 {
+    background: url(../img/MDA/BICOLOR2.jpg) no-repeat top center ;;
+    background-size: cover;
+
+ }
+
+ #MDA4 {
+    background: url(../img/MDA/BICOLOR2.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+ }
+
+
 
   
   .imagenes-grande {
