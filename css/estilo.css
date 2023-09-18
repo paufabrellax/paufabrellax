@@ -372,59 +372,41 @@ header {
 
 /* PAGINA DE MORE WORKS*/
 
+
+
+
 .galeria a.moreworks1 {
     
-    background: url(../img/moreworks/MUA.png) no-repeat center center ;;
+    background: url(../img/moreworks/SENSECODE3.jpg) no-repeat center center ;;
     background-size: cover;
     
 }
 
 .galeria a.moreworks2 {
     
-    background: url(../img/moreworks/SENSECODE.jpg) no-repeat top center ;;
+    background: url(../img/moreworks/ARTHUB1.jpg) no-repeat center center ;;
     background-size: cover;
     
 }
 .galeria a.moreworks3 {
     
-    background: url(../img/moreworks/SANVALENDRIPV1.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/GRAPHICS_VF.jpg) no-repeat center center ;;
     background-size: cover;
     
 }
 .galeria a.moreworks4 {
     
-    background: url(../img/moreworks/GRAPHICS_VF.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/COZZYpubli_04.jpg) no-repeat center center ;;
     background-size: cover;
     
 }
 
 .galeria a.moreworks5 {
     
-    background: url(../img/moreworks/V3.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/MUA.png) no-repeat center center ;;
     background-size: cover;
     
 }
-.galeria a.moreworks6 {
-    
-    background: url(../img/moreworks/VF.jpg) no-repeat center center ;;
-    background-size: cover;
-    
-}
-
-.galeria a.moreworks7 {
-    
-    background: url(../img/moreworks/PUKER2-05.png) no-repeat center center ;;
-    background-size: cover;
-    
-}
-
-.galeria a.moreworks8 {
-    
-    background: url(../img/moreworks/1.png) no-repeat center center ;;
-    background-size: cover;
-    
-}
-
 
 
 footer {
@@ -434,11 +416,8 @@ footer {
     margin-top: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center
-   
-    
-    
-    
+    align-items: center;
+     
     
 }
 
@@ -724,6 +703,59 @@ footer a.mail {
 
  }
 
+/* PAGINA DE PROYECTO SENSECODE */
+
+#sensecode1 {
+    background: url(../img/moreworks/SENSECODE3.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+}
+
+#sensecode2 {
+    background: url(../img/moreworks/SENSECODECOVER.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+}
+
+#sensecode3 {
+
+    background: url(../img/moreworks/SENSECODE4.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+}
+
+#sensecode4 {
+    background: url(../img/moreworks/SENSECODE2.jpg) no-repeat bottom center ;;
+    background-size: cover;
+
+}
+
+
+/* PAGINA DE PROYECTO ARTHUB */
+
+#arthub1 {
+    background: url(../img/moreworks/ARTHUB1.jpg) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+#arthub2 {
+    background: url(../img/moreworks/ARTHUB/proceso1.jpg) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+#arthub3 {
+    background: url(../img/moreworks/ARTHUB/proceso3.jpg) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+#arthub4 {
+    background: url(../img/moreworks/ARTHUB/FRAME1.png) no-repeat center center ;;
+    background-size: cover;
+
+}
 
 
   
@@ -737,8 +769,24 @@ footer a.mail {
     width: 100%;
     
     
+    
     background-color: rgba(0, 0, 0, 0.7 );
     z-index: 999;
+    
+  }
+
+  .imagen-grande {
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7 );
+    z-index: 999;
+    
     
   }
   
@@ -788,6 +836,7 @@ footer a.mail {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
 
 }
 
