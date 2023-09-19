@@ -384,7 +384,7 @@ header {
 
 .galeria a.moreworks2 {
     
-    background: url(../img/moreworks/ARTHUB1.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/ARTHUB/proceso3.jpg) no-repeat center center ;;
     background-size: cover;
     
 }
@@ -734,19 +734,19 @@ footer a.mail {
 /* PAGINA DE PROYECTO ARTHUB */
 
 #arthub1 {
-    background: url(../img/moreworks/ARTHUB1.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/ARTHUB/proceso3.jpg) no-repeat center center ;;
     background-size: cover;
 
 }
 
 #arthub2 {
-    background: url(../img/moreworks/ARTHUB/proceso1.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/ARTHUB1.jpg) no-repeat center center ;;
     background-size: cover;
 
 }
 
 #arthub3 {
-    background: url(../img/moreworks/ARTHUB/proceso3.jpg) no-repeat center center ;;
+    background: url(../img/moreworks/ARTHUB/proceso1.jpg) no-repeat center center ;;
     background-size: cover;
 
 }
