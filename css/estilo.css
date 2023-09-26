@@ -758,6 +758,29 @@ footer a.mail {
 }
 
 
+/* PAGINA DE PROYECTO ANX */
+
+#anx1 {
+    background: url(../img/moreworks/GRAPHICS_VF.jpg) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+#anx2 {
+    background: url(../img/moreworks/ANX/NOGRAPHICS.jpg) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+#anx3 {
+    background: url(../img/moreworks/ANX/IMG_4673.heic) no-repeat center center ;;
+    background-size: cover;
+
+}
+
+
+
+
   
   .imagenes-grande {
     display: flex;
